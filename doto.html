@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        #wrapper h2{
+    display:flex;
+    justify-content: center;
+   
+    
+}
+
+h2{
+    color:#ffeba7;
+    letter-spacing: 1px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black ;
+    margin-top:30px;
+    height:2.5em;
+    width:250px;
+    padding-left:10px;
+}
+
+input:active{
+    border:none;
+}
+#wrapper{
+    height:500px;
+    width:400px;
+    margin:200px auto;
+    background-color:#1f2029;
+    border-radius:10px;
+    padding:30px;
+}
+
+button{
+    margin-top:20px;
+    background-color:#ffeba7;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: #102770;
+}
+
+button:hover{
+    cursor:pointer;
+}
+#todoList{
+    color:rgb(16, 214, 185);
+    font-size:28px;  
+    margin-top:10px; 
+}
+
+#todoList p{
+  margin:10px 0px;
+}
+
+#todoList p:hover{
+  cursor: pointer;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(liste.jpg);
+    background-size: cover;
+}
+
+    </style>
+    <div id="wrapper">
+        <h2>Todo List</h2>
+        <input type="text" id="input">
+        <button id="add">Add</button>
+        <div id="todoList">
+            <a class="login" href="index.html"></a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
